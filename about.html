@@ -5,8 +5,8 @@ description: "Hey, this is BY."
 header-img: "img/post-bg-rwd.jpg"
 ---
 
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+< Language Selector -->
+< <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
 </select> -->
@@ -22,7 +22,7 @@ header-img: "img/post-bg-rwd.jpg"
 
     <p>科研、学习之余，我喜欢篮球、足球、游泳、飞盘还有书法。</p>
 
-    <p>这是参考 <a href="https://github.com/Huxpro/huxpro.github.io/">huxpro.github.io</a> 搭建的个人博客。我在GitHub主页<a href="https://github.com/likecanyon">👉GitHub·likecanyon</a>。如果有什么问题，欢迎提出探讨~</p>
+    <p>这是参考 <a href="https://github.com/Huxpro/huxpro.github.io/">huxpro.github.io</a> 及 <a href="https://keysaim.github.io/post/blog/2017-08-15-how-to-setup-your-github-io-blog/">kesaim'blog</a>搭建的个人博客。我在GitHub主页<a href="https://github.com/likecanyon">👉GitHub·likecanyon</a>。如果有什么问题，欢迎提出探讨~</p>
 
     <p></p>
     
@@ -36,16 +36,16 @@ header-img: "img/post-bg-rwd.jpg"
     </ul>
 </div>
 
-<!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
+< English Version -->
+< <div class="en post-container">
+    <blockquote><p>A PhD student <br>
+    A life-long learner.</p></blockquote>
 
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
+    <p>Hi, I am <strong>likecanyon</strong>，you can call me <strong>Simon</strong>. I am a PhD student focusing on robotics at State Key Labtory of Robotics,SIA,CAS and plan to go to Fraunhofer through a joint PhD promotion prgram in Sep,2024</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/likecanyon">Github·likecanyon</a>.</p>
     
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
+    <p>I am a sports enthusiast, I like basketball, swimming, flying disk and soccer. I am also instereted in Chinese calligraphy.</p>
 
     <h5>Talks</h5>
 
@@ -53,9 +53,9 @@ header-img: "img/post-bg-rwd.jpg"
     <li><a href="https://github.com">GitHub</a></li>
     <li><a href="http://jekyll.com.cn/">jekyll</a></li>
     <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
+    <li><a href="https://likecanyon.github.io">BY</a></li>
     </ul>
-</div> -->
+</div>>
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
@@ -101,7 +101,7 @@ header-img: "img/post-bg-rwd.jpg"
 <!-- Gitalk 评论 start  -->
 {% if site.gitalk.enable %}
 <!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
@@ -116,21 +116,21 @@ header-img: "img/post-bg-rwd.jpg"
     id: 'about',
     });
     gitalk.render('gitalk-container');
-</script>
+</script> -->
 {% endif %}
 <!-- Gitalk end -->
 
  <!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
 
-<div class="comment">
+<!-- <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
     </div>
-</div>
+</div> -->
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus.username}}";
     var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
@@ -141,7 +141,7 @@ header-img: "img/post-bg-rwd.jpg"
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script>
+</script> -->
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
