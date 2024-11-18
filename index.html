@@ -11,7 +11,7 @@
     <style>
       /* Sidebar styling */
       .sidebar {
-        width: 20%;
+        width: 15%;
         position: fixed;
         height: 100%;
         background-color: #ffffff;
@@ -22,7 +22,7 @@
 
       /* Main content styling to account for sidebar */
       .main-content {
-        margin-left: 22%; /* Make room for sidebar */
+        margin-left: 15%; /* Make room for sidebar */
         padding: 20px;
       }
 
@@ -57,7 +57,8 @@
     <a id="top"></a>
     <!-- Sidebar content -->
     <div class="sidebar">
-      <h3><a href="#top" style="text-decoration: none; color: inherit;">Navigation(Top)</a></h3>
+      <h3><a href="#top" >Navigation(Top)</a></h3>
+      <!-- <h3><a href="#top" style="text-decoration: none; color: inherit;">Navigation(Top)</a></h3> -->
       <ul>
         <li><a href="#Biography">Biography</a></li>
         <li><a href="#research">Research</a></li>
@@ -74,14 +75,15 @@
     <!-- Main content of the website -->
     <div class="main-content">
       <table class="container" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto">
-        
-        <tbody>
+         <tbody>
           <tr style="padding:0px">
             <td style="padding:0px">
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+              <!-- Biography section -->
+              <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
                 <tbody>
                   <tr style="padding:0px">
-                    <td style="padding:2.5%;width:63%;vertical-align:middle">
+                    <td>
                       
                       <p class="name" style="text-align: center;">
                         Ziqi Gao
@@ -113,7 +115,7 @@
               <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
                   <tr>
-                    <td style="padding:20px;width:100%;vertical-align:middle">
+                    <td>
                       <h2 id="research">Research</h2>
                       <p>
                         I focus on Robot Learning and aim to significantly expand robots' perception and physical interaction capabilities, particularly through Multi-Modal Perception, Dexterous Manipulation, and Learning with Dynamic Tasks.
@@ -126,12 +128,12 @@
 
               <!-- Publications -->
               <!-- Include your publications here -->
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
                 <tbody>
 
                   <!-- Publication Entry 1 -->
                   <tr onmouseout="internerf_stop()" onmouseover="internerf_start()">
-                    <td style="padding:20px; width:25%; display: flex; align-items: center; vertical-align: middle;">
+                    <td>
                       <div class="one">
                         <img src='images/SensorsJournal2023.jpg'  width="160" id="internerf_image" alt="Photo">
                       </div>
@@ -145,7 +147,7 @@
                         internerf_stop()
                       </script>
                     </td>
-                    <td style="padding:20px;width:75%;vertical-align:middle">
+                    <td>
                       <a href="https://ieeexplore.ieee.org/abstract/document/10373817">
                         <span class="papertitle">Tool Center Point Calibration via Posture-Sequence Particle Swarm Optimization</span>
                       </a>
@@ -324,7 +326,7 @@
 
 
                 <!-- Joint publications section -->
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="width:100%;vertical-align:middle">
                   <a href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1364338/full">
                     <span class="papertitle">3D-CAM: a novel context-aware feature extraction framework for neurological disease classification</span>
                   </a>
@@ -383,157 +385,168 @@
 
 
 
-                <!-- Education section -->
-                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <h2 id="education">Education</h2>
-                      </td>
-                    </tr>
-                    <!-- Experience entries -->
-                    <table width="100%" align="center" border="0" cellpadding="10">
-                      <tbody>
-                        <tr>
-                          <td style="padding-left:20px;padding-right:20px;width:20%;vertical-align:middle">
-                            <img src="images/UCAS.png" width="90%">
-                          </td>
-                          <td width="80%" valign="center">
-                            <b>University of Chinese Academy of Sciences</b>, China
-                            <br> 2021.09 - Present
-                            <br>GPA: 3.77
-                            <br> <b>PhD Student of a successive postgraduate and doctoral program in Pattern Recognition and Intelligent Systems.</b>
-                            <br> Advisor: Prof. <a href="https://people.ucas.edu.cn/~zhaoyiwen">Yiwen Zhao</a>
-                            <br>    
-                          </br> 
-                          </td>
-                        </tr>
-                       
-
-                       
-                        <tr>
-                          <td style="padding-left:20px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/zzu.png", width="90%"></td>
-                          <td width="80%" valign="center">
-                            <b>Zhengzhou University</b>, China
-                            <br> 2017.09 - 2021.07
-                            <br> GPA:3.66, Ranking:1/99, Excellent Graduate Student
-                            <br> <b>B.E. in Mechanical Engineering</b>
-                            <!-- <br> Advisor: Prof. <a href="https://www.yangyaodong.com/">Yaodong Yang</a> -->
-                          </td>
-                        </tr>
 
 
 
-                      </tbody>
-                    </table>
-                    </td>
-                  </tr>
-                  </tbody>
-                </table>
+               <!-- Education section -->
+<table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+  <tbody>
+    <tr>
+      <td>
+        <h2 id="education">Education</h2>
 
-              <!-- Experiences section -->
+        <!-- Education entries -->
+        <table width="100%" align="center" border="0" cellpadding="10">
+          <tbody>
+            <tr>
+              <td style="padding-left:20px; padding-right:20px; width:20%; vertical-align:middle;">
+                <img src="images/UCAS.png" width="90%">
+              </td>
+              <td width="80%" valign="center">
+                <b>University of Chinese Academy of Sciences</b>, China
+                <br> 2021.09 - Present
+                <br> GPA: 3.77
+                <br> <b>PhD Student of a successive postgraduate and doctoral program in Pattern Recognition and Intelligent Systems.</b>
+                <br> Advisor: Prof. <a href="https://people.ucas.edu.cn/~zhaoyiwen">Yiwen Zhao</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-left:20px; padding-right:20px; width:20%; vertical-align:middle;">
+                <img src="images/zzu.png" width="90%">
+              </td>
+              <td width="80%" valign="center">
+                <b>Zhengzhou University</b>, China
+                <br> 2017.09 - 2021.07
+                <br> GPA: 3.66, Ranking: 1/99, Excellent Graduate Student
+                <br> <b>B.E. in Mechanical Engineering</b>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+             <!-- Experiences section -->
+<table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+  <tbody>
+    <tr>
+      <td>
+        <h2 id="experiences">Experiences</h2>
+
+        <!-- Experience entries -->
+        <table width="100%" align="center" border="0" cellpadding="10">
+          <tbody>
+            <tr>
+              <td style="padding-left:20px; padding-right:20px; width:20%; vertical-align:middle;">
+                <img src="images/fraunhofer.jpg" width="90%">
+              </td>
+              <td width="80%" valign="center">
+                <b>Fraunhofer</b>, Germany
+                <br> 2024.09 - expected 2025.08
+                <br> Work in Cognitive Robotics Group
+                <br> <b>Visiting Student Researcher</b>
+                <br> Advisor: M.Sc. <a href="https://www.linkedin.com/in/magnus-hanses/?originalSubdomain=de">Magnus Hanses</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-left:20px; padding-right:20px; width:20%; vertical-align:middle;">
+                <img src="images/brainco.png" width="90%">
+              </td>
+              <td width="80%" valign="center">
+                <b>Brainco</b>, United States
+                <br> 2019.07
+                <br> Summer Internship
+              </td>
+            </tr>
+            <!-- Add more experience entries as needed -->
+          </tbody>
+        </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+<!-- Honors and Awards section -->
+<table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+  <tbody>
+    <tr>
+      <td>
+        <h2 id="honors">Honors and Awards</h2>
+        <!-- Add honors and awards details here -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+              <!-- Contact section -->
               <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td>
-                      <h2 id="experiences">Experiences</h2>
-                    </td>
-                  </tr>
-                  <!-- Experience entries -->
-                  <table width="100%" align="center" border="0" cellpadding="10">
-                    <tbody>
-
-                      <tr>
-                        <td style="padding-left:20px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/fraunhofer.jpg", width="90%"></td>
-                        <td width="80%" valign="center">
-                          <b>Fraunhofer</b>, Germany
-                          <br> 2024.09 - expected 2025.08
-                          <br> Work in Cognitive Robotics Group
-                          <br> <b>Visiting Student Researcher </b>
-                          <br> Advisor: M.Sc. <a href="https://www.linkedin.com/in/magnus-hanses/?originalSubdomain=de">Magnus Hanses</a>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td style="padding-left:20px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/brainco.png", width="90%"></td>
-                        <td width="80%" valign="center">
-                          <b>Brainco </b>, United Stades
-                          <br> 2019.07
-                          <br> Summer Intership
-                           <br>    
-                          </br> 
-                          <!-- <br> Advisor: Prof. <a href="https://www.bristolroboticslab.com/robot-teleoperation">Chenguang Yang</a> -->
-                        </td>
-                      </tr>
-                       
-                      <!-- Add more experience entries as needed -->
-                    </tbody>
-                  </table>
-
-                </tbody>
-              </table>
-
-
-
-              <!-- Honors and Awards section -->
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td>
-                      <h2 id="honors">Honors and Awards</h2>
-                      <br>    
-                    </br> 
-                    <br>    
-                  </br> 
-                    </td>
-                  </tr>
-                  <!-- Add honors and awards details here -->
-                </tbody>
-              </table>
+  <tbody>
+    <tr>
+      <td>
+        <h2 id="Contact">Contact</h2>
+        <p>
+          Feel free to reach out: <a href="mailto:gaoziqi.ucas@gmail.com">gaoziqi.ucas@gmail.com</a>. Best of luck with your ongoing research :D
+                
+        </p>
+        <p></p>
+        <!-- ClustrMaps script -->
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d=wcs-7kNnZ7ieXZo6YQ1oXWUAvrUCsiBc3E5VQo9_0Qs&cmn=41a5d5&cmo=2583a4'></script>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 
 
-
-                 <!-- Contact section -->
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td>
-                      <h2 id="Contact">Contact</h2>                      
-                      <br> Feel free to reach out : gaoziqi.ucas@gmail.com, best luck of your onging research :D
-                      </br><br>    
-                      </br> 
-                      </td>
-                     </tr>
-                                 
-                  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&h=300&t=n&d=wcs-7kNnZ7ieXZo6YQ1oXWUAvrUCsiBc3E5VQo9_0Qs&cmn=51aee6&cmo=0bb0ca'></script>
-                  <br> </br>
-                </tbody>
-              </table>
+     <!-- Footer Section -->
+     <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+      <tbody>
+        <tr>
+          <td style="padding:0px;">
+            <p style="text-align:right; font-size:small;">
+              Template stolen from <a href="https://jonbarron.info/">Jon Barron</a>. Thanks for visiting :D
+              <br> Last updated: Nov 18, 2024
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
 
 
 
-              <!-- Contact or Footer section -->
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td style="padding:0px">
-                      <br>
-                      <p style="text-align:right;font-size:small;">
-                        Template stolen from <a href="https://jonbarron.info/">Jon Barron</a>. Thanks for visiting :D
-                        <br> Last updated: 11 Nov 18, 2024
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-           
-    </div>
 
-    
-  </body>
+
+</body>
 </html>
