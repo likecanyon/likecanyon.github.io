@@ -188,61 +188,13 @@ body {
 }
 
 
-
-/* Hamburger menu icon */
-.hamburger {
-  display: none; /* Hide by default */
-  font-size: 30px;
-  cursor: pointer;
-  padding: 10px;
-}
-
-/* Mobile navigation menu */
-.mobile-nav {
-  display: none; /* Hide by default */
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-.mobile-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.mobile-nav ul li {
-  margin-bottom: 10px;
-}
-
-.mobile-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-.mobile-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Show hamburger menu and mobile nav on small screens */
+/* Responsive styles (Mobile) */
 @media screen and (max-width: 768px) {
-  .hamburger {
-    display: block; /* Show hamburger menu */
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 1000; /* Ensure it's on top */
+  .sidebar {
+    display: none; /* Hide the sidebar */
   }
 
-  .mobile-nav {
-    position: fixed;
-    top: 50px; /* Adjust as needed */
-    right: 0;
-    width: 200px;
-    z-index: 999;
-    border-left: 1px solid #ccc;
-  }
-
-  /* Adjust main content */
   .main-content {
-    margin-top: 60px; /* Make room for hamburger menu */
+    margin-left: 0; /* Remove left margin */
   }
 }
