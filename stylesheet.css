@@ -192,7 +192,7 @@ body {
 @media only screen and (max-width: 768px) {
   .sidebar {
     display: none;
-    background-color: rgb(110, 138, 189); /* Test style */
+    
   }
 
   .main-content {
