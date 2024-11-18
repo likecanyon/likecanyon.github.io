@@ -133,3 +133,71 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* === Sidebar Styles === */
+.sidebar {
+  width: 15%; /* Adjusted width as per your preference */
+  position: fixed;
+  height: 100%;
+  background-color: #ffffff; /* Background color of the sidebar */
+  padding: 20px;
+  overflow-y: auto;
+  border: none;
+  box-shadow: none;
+}
+
+/* Main content styling to account for sidebar */
+.main-content {
+  margin-left: 15%; /* Match this value to the sidebar width */
+  padding: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+
+/* Optional: Style for sidebar navigation links */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Container adjustments */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
