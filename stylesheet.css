@@ -136,10 +136,10 @@ span.highlight {
 
 /* === Sidebar Styles === */
 .sidebar {
-  width: 15%; /* Adjusted width as per your preference */
+  width: 15%;
   position: fixed;
   height: 100%;
-  background-color: #ffffff; /* Background color of the sidebar */
+  background-color: #ffffff;
   padding: 20px;
   overflow-y: auto;
   border: none;
@@ -148,11 +148,12 @@ span.highlight {
 
 /* Main content styling to account for sidebar */
 .main-content {
-  margin-left: 15%; /* Match this value to the sidebar width */
+  margin-left: 15%;
   padding: 20px;
   background-color: #ffffff;
   border: none;
 }
+
 
 /* Optional: Style for sidebar navigation links */
 .sidebar ul {
@@ -188,16 +189,26 @@ body {
 
 
 
-
-
+/* Responsive Design for Smaller Screens */
 @media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
     position: relative;
     height: auto;
+    padding: 10px;
   }
 
   .main-content {
     margin-left: 0;
+    padding: 10px;
+  }
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a {
+    font-size: 16px;
   }
 }
