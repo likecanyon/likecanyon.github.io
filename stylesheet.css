@@ -189,12 +189,13 @@ body {
 
 
 /* Responsive styles (Mobile) */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .sidebar {
-    display: none; /* Hide the sidebar */
+    display: none;
+    background-color: rgb(110, 138, 189); /* Test style */
   }
 
   .main-content {
-    margin-left: 0; /* Remove left margin */
+    margin-left: 0;
   }
 }
