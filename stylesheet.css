@@ -201,3 +201,13 @@ body {
 }
 
 
+
+.shinobi_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1; /* Always visible */
+  transition: none; /* Remove animation */
+  display: block;
+}
+
