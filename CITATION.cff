@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use HugoBlox in your work, please cite it as below."
+type: software
+
+title: "HugoBlox"
+abstract: >
+  HugoBlox is an open-source ecosystem for building high-performance research portfolios, 
+  lab websites, and technical documentation. Designed for data sovereignty, it enables 
+  data scientists and researchers to publish reproducible content directly from Markdown, 
+  Jupyter Notebooks, and BibTeX, eliminating the need for complex JavaScript dependencies 
+  or proprietary AI platforms.
+
+authors:
+  - family-names: "Cushen"
+    given-names: "George"
+    orcid: "https://orcid.org/0000-0003-0526-3793"
+
+license: "MIT"
+repository-code: "https://github.com/HugoBlox/kit"
+url: "https://hugoblox.com"
+doi: 10.5281/zenodo.17704062
+
+# Use the latest released version here
+version: "0.12.0"
+date-released: 2026-04-02
+
+keywords:
+  - hugo
+  - copilot
+  - ai
+  - static-site-generator
+  - website-builder
+  - markdown
+  - academic-websites
+  - documentation
+  - blog
+  - portfolio
+  - research
+  - academic
+  - open-source
+  - no-code  

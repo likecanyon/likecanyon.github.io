@@ -1,0 +1,136 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# MARKDOWN SLIDES - HUGO BLOX CONFIGURATION
+# A minimal template for hosting and sharing slide decks
+# Documentation: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # Customize your slide deck site branding
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    name: "My Slides"
+    organization: ""
+    type: person                        # person | organization
+    tagline: "Open-source slide decks"
+    description: "Markdown-based slide presentations. Write in Markdown, present anywhere, share with anyone."
+    social:
+      twitter: ""                       # Twitter/X handle for social cards
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: system                        # light | dark | system
+    pack: "default"
+    colors:
+      primary: ""
+      secondary: ""
+      neutral: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    # Theme pack: name from data/fonts/
+    pack: "modern"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # ────────────────────────────────────────────────────────────────────────────
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
+    enable: true
+    style: navbar-simple                # Clean, minimal navbar
+    sticky: true
+    align: center
+    search: true                        # Enable search for larger deck collections
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # ────────────────────────────────────────────────────────────────────────────
+  footer:
+    style: minimal
+    language_switcher: false
+    text: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COPYRIGHT
+  # ────────────────────────────────────────────────────────────────────────────
+  copyright:
+    notice: "© {year} {name}"
+    license:
+      type: cc
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: false
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # CONTENT
+  # Math is enabled by default for technical presentations
+  # ────────────────────────────────────────────────────────────────────────────
+  content:
+    math:
+      enable: true                      # Enable LaTeX math for technical decks
+    toc:
+      enable: false                     # Not needed for slides
+    reading_time:
+      enable: false                     # Not relevant for slides
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEARCH
+  # ────────────────────────────────────────────────────────────────────────────
+  search:
+    enable: true
+    suggestions: []
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COMMENTS - Disabled by default
+  # ────────────────────────────────────────────────────────────────────────────
+  comments:
+    enable: false
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # ANALYTICS - Add your tracking IDs
+  # ────────────────────────────────────────────────────────────────────────────
+  analytics:
+    google:
+      measurement_id: ""
+    plausible:
+      domain: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LOCALE
+  # ────────────────────────────────────────────────────────────────────────────
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECURITY - Allow slides to be embedded in iframes
+  # ────────────────────────────────────────────────────────────────────────────
+  security:
+    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PREMIUM
+  # Premium features and creator program (affiliates)
+  # ────────────────────────────────────────────────────────────────────────────
+  pro:
+    # Hide "Powered by HugoBlox" attribution
+    # Requires: HugoBlox Premium to support HugoBlox via alternative means
+    # Note: Even with Premium, you can keep this false to support open source!
+    # Get Premium: https://hugoblox.com/premium
+    hide_attribution: false
+    affiliate_code: ""

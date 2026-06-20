@@ -1,234 +1,254 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
-
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)
-
-<!-- TODO: Replace with a short demo video showing Hugo Chat generating an academic profile page -->
-<!-- https://github.com/user-attachments/assets/REPLACE_ME -->
-
-<h1 align="center">The Portfolio That Works While You Sleep</h1>
+[**中文**](./README.zh.md)
 
 <p align="center">
-  <strong>Your unfair advantage in academia.</strong><br/>
-  Stop sending PDFs into the void. Build a living portfolio that boosts citations, attracts collaborators, and lands offers — all from simple Markdown files you own.<br/>
-  Built on <a href="https://github.com/HugoBlox/kit">HugoBlox</a> — the open-source framework where AI generates your pages and you own everything as Markdown.
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=hero">
+    <img src="./.github/media/hero.png" alt="HugoBlox — AI-generated sites you own as Markdown" width="100%">
+  </a>
+</p>
+
+<h1 align="center">Describe your site. AI builds it. You own it as Markdown.</h1>
+
+<p align="center">
+  <strong>HugoBlox is the open-source framework for building professional sites from structured Markdown — landing pages, portfolios, blogs, publications, docs, and more.</strong><br/>
+  Pick a template, let <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=tagline">Hugo Chat AI</a> generate your pages, and deploy anywhere. Every file is plain Markdown you can read, edit, and own forever.
 </p>
 
 <p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Deploy Free (60s)</b></a>
+  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Generate Pages with AI</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top_academic-cv"><b>Customize with AI</b></a>
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Browse Templates</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=demo">Live Demo</a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable"><b>Ownable CMS for VS Code</b></a>
 </p>
 
 <div align="center">
 
-  <a href="https://github.com/HugoBlox/hugo-theme-academic-cv">
-    <img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-academic-cv?label=Star&logo=github&style=flat-square&color=181717" alt="GitHub Stars">
+  <a href="https://github.com/HugoBlox/kit">
+    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=Star%20on%20GitHub&logo=github&logoColor=white&style=flat-square&color=181717" alt="GitHub Stars">
   </a>
   <a href="https://discord.gg/z8wNYzb">
     <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
   </a>
-  <a href="https://github.com/HugoBlox/kit">
-    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=HugoBlox&logo=github&style=flat-square&color=181717" alt="HugoBlox Stars">
+  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable">
+    <img src="https://img.shields.io/open-vsx/dt/ownable/ownable?label=VS%20Code%20Installs&logo=visualstudiocode&logoColor=white&style=flat-square&color=007ACC" alt="VS Code Installs">
+  </a>
+  <a href="https://open-vsx.org/extension/Ownable/ownable">
+    <img src="https://img.shields.io/open-vsx/stars/ownable/ownable?label=VS%20Code%20Rating&logo=visualstudiocode&logoColor=white&style=flat-square&color=007ACC" alt="VS Code Rating">
+  </a>
+  <a href="https://x.com/GoOwnable">
+    <img src="https://img.shields.io/twitter/follow/GoOwnable?label=Follow&logo=x&logoColor=white&style=flat-square&color=000000" alt="Follow on X">
   </a>
 
 </div>
 
 <p align="center">
-  <sub>Part of the <a href="https://github.com/HugoBlox/kit"><strong>HugoBlox</strong></a> ecosystem · Trusted by <strong>150,000+</strong> researchers at <strong>MIT, Stanford, Google & NVIDIA</strong> · Rated <strong>4.9/5</strong> (official survey) · Since <strong>2016</strong></sub>
+  <sub>
+    Trusted since <strong>2016</strong> · <strong>150,000+</strong> sites (Meta, Stanford, NVIDIA) · Rated <strong>4.9/5</strong> by users (official survey) · Used by teams at <a href="https://research.nvidia.com/research-labs">NVIDIA Research</a>, <a href="https://www.metaconscious.org/">MIT</a>, and <a href="https://cai4cai.ml/">King's College London</a> · Featured by <a href="https://github.blog/open-source/release-radar-february-2019/#hugo-academic-4-0">GitHub Release Radar</a>
+  </sub>
 </p>
+
+<!-- TODO: Replace with demo video -->
+<!-- https://github.com/user-attachments/assets/REPLACE_ME -->
 
 ---
 
-## Why This Template?
+## ⚡ How it works
 
-Most academic CVs are static PDFs that get lost in the pile. This is an **always-on portfolio** that works 24/7 to advance your career:
+<table>
+<tr>
+<td width="33%" align="center">
 
-- **Students & grads** applying to top labs and industry roles — stand out with a living portfolio, not a flat PDF
-- **Researchers** who want a citable online presence with publications, projects, and talks in one place
-- **Faculty & PIs** showcasing their lab, group news, and team members
-- **Anyone with publications** who wants auto-imported citations from BibTeX/DOI without manual formatting
+**1. 🎨 Pick a template**
 
-> *"My citations went up 3x after switching to this template. Colleagues started finding my work through Google Scholar links back to my site. The BibTeX auto-sync is a lifesaver."*
-> — **Dr. Li Zhang**, AI Research Scientist
+Choose a [template](https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=how_it_works) or scaffold with the CLI.
 
-> *"I set this up during a weekend and my PhD students had their profiles live by Monday. They just edit Markdown — no tickets to IT, no WordPress logins."*
-> — **Prof. Sarah Chen**, Computer Science, ETH Zürich
+Landing pages, portfolios, blogs, research sites, docs — ready in seconds.
+
+</td>
+<td width="33%" align="center">
+
+**2. ✨ Generate pages with AI**
+
+Open [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=how_it_works) and describe what you need.
+
+*"Create a landing page with hero, pricing, and testimonials"* — done.
+
+</td>
+<td width="33%" align="center">
+
+**3. 🚀 Deploy anywhere**
+
+Push to GitHub. Deploy on Netlify, Vercel, Cloudflare — or any static host.
+
+No database. No runtime. Free hosting.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏆 Why HugoBlox
+
+Every other tool makes you choose. HugoBlox doesn't.
+
+| | **AI site builders** (Lovable, v0, Bolt) | **CMS platforms** (WordPress, Webflow) | **HugoBlox** |
+| :--- | :---: | :---: | :---: |
+| AI generates your pages | Yes | No | **Yes** |
+| You own the output as readable files | No — React code | No — locked in a database | **Yes — plain Markdown** |
+| Works without a runtime server | Sometimes | No | **Yes — static HTML** |
+| Structured content types (publications, projects, team pages) | No | Partial | **Yes — 20+ built-in types** |
+| Human-editable after AI generates it | Barely | Through the CMS only | **Yes — it's Markdown** |
+| Free to host forever | No | No | **Yes** |
+| Open source | No | No | **Yes — MIT licensed** |
+
+> [!IMPORTANT]
+> **The pitch:** other tools generate code you can't maintain or lock your content in a database you can't leave. HugoBlox gives you AI-generated pages as plain Markdown on a Tailwind + Hugo stack — readable, portable, and yours.
+
+---
+
+## 🧱 What you can build
 
 <p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_mid">
-    <img src="https://img.shields.io/badge/⚡️%20Deploy%20Your%20CV%20in%2060s-7c3aed?style=for-the-badge" alt="Deploy this template" width="400">
-  </a>
+  <img src="./.github/media/templates.webp" alt="Sites built with HugoBlox" width="900">
+</p>
+
+HugoBlox includes **20+ structured content types** with proper front matter, metadata, and layouts. Tell Hugo Chat what you need and it generates the right one:
+
+- 🚀 **Landing pages** — hero, features, pricing, testimonials, CTA sections via the block system
+- 📝 **Blogs & articles** — posts with tags, categories, authors, and SEO metadata
+- 💼 **Portfolios & project pages** — showcase your work with descriptions, tech stacks, and images
+- 📚 **Publication pages** — academic papers with BibTeX/DOI citation workflows
+- 📖 **Documentation** — searchable docs with sidebar navigation and versioning
+- 👥 **Team & author profiles** — bio, avatar, social links, publication lists
+- 🎤 **Event & talk pages** — conferences, workshops, presentations with slides
+- 🎞️ **Slide decks** — Markdown-powered presentations using reveal.js
+- 📄 **Resumes & CVs** — structured career pages, exportable to PDF
+- 🔬 **Jupyter notebooks & LaTeX** — render `.ipynb` and math-heavy pages natively
+
+<p align="center">
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_templates"><b>Browse all templates</b></a>
 </p>
 
 ---
 
-## Features
+## 🛠️ Get started
 
-| Feature | Benefit |
-| :--- | :--- |
-| **BibTeX / DOI auto-import** | Drop in a `.bib` file — publication pages generated automatically with proper citations. |
-| **Jupyter & RMarkdown** | Publish `.ipynb` notebooks as beautiful posts — code, outputs, and narrative intact. |
-| **LaTeX math** | Native rendering for equations and technical writing. |
-| **Markdown slides** | Present with reveal.js — math, syntax highlighting, diagrams, speaker notes. |
-| **SEO & AI-ready** | Optimized for search engines and LLMs — your work gets found, cited, and recommended. |
-| **AI page generation** | Describe what you need to [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=features_academic-cv) — get structured pages with correct front matter instantly. |
-| **Visual editor** | Drag-and-drop blocks in VS Code with [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable). No coding needed. |
-| **Plain Markdown** | Every file is human-readable. No database, no lock-in, take your content anywhere. |
-| **Free hosting** | Deploy to GitHub Pages, Netlify, Vercel, or Cloudflare — all free tier. |
+### Step 1: Create your site
 
----
-
-## 🚀 Get Started
-
-### Step 1: Deploy Your Site
-
-**Option A: Launch in browser** (fastest — no install needed)
+**Option A: Start from a template** (fastest)
 
 > [!TIP]
-> Deploy a live site in 60 seconds — no software to install:
-> [**Deploy Academic CV free**](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=get_started)
+> Pick a template and launch in your browser in 60 seconds:
+> [**Browse templates**](https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=get_started)
 
-**Option B: Use the CLI**
+**Option B: Use the CLI** (full control)
 
 ```bash
 # Requires Hugo Extended & Node.js
-npx hugoblox create site --template academic-cv
+npm install -g hugoblox
+hugoblox create site
 ```
 
-### Step 2: Customize With AI + Visual Editing
+### Step 2: Customize with AI + visual editing
 
 <table>
 <tr>
 <td width="50%">
 
-**✨ Hugo Chat** — AI customization
+**Hugo Chat** — AI page generation
 
-Tell Hugo Chat what you want in plain English. It generates structured pages with the right front matter, shortcodes, and blocks for this template.
+Describe what you need in plain English. Hugo Chat generates structured Hugo pages with correct front matter, shortcodes, and HugoBlox blocks.
 
-> *"Add a publications page with my 2024 papers from this BibTeX file"*
+> *"Generate a landing page for my consulting firm with services, testimonials, and a contact form"*
 
-[**Try Hugo Chat — free**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2_academic-cv)
+[**Try Hugo Chat — free**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2)
 
 </td>
 <td width="50%">
 
 **Ownable CMS** — visual editing in VS Code
 
-1. Install [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable)
-2. Open your project in VS Code
-3. Click the Ownable icon to start editing visually
+Drag-and-drop blocks, live preview, and YAML validation without leaving your editor. The power of a visual website builder inside VS Code.
+
+1. Install [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) from the Marketplace
+2. Open your HugoBlox project
+3. Click the Ownable icon to start editing
 
 </td>
 </tr>
 </table>
 
-![Ownable CMS in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
-*Ownable CMS: Drag-and-drop page builder inside VS Code.*
+<p align="center">
+  <img src="./.github/media/studio/slide-1.webp" alt="Ownable CMS — visual editing inside VS Code" width="600">
+</p>
 
 > [!NOTE]
-> **New to Hugo?** No problem. You don't need to know Hugo — edit visually or write Markdown. Hugo is the engine under the hood that makes your site fast, secure, and free to host. [Learn more →](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs_academic-cv)
+> **Need docs?** See [**docs.ownable.dev**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs) for guides, configuration reference, and best practices.
 
 ---
 
-## 💎 Go Premium
+## 🔓 Open source. No lock-in. No catch.
 
-Love the free version? **Academic CV Pro** and **Resume Pro** take it further:
-
-- Premium designs that make an unforgettable first impression
-- Advanced timeline and layout options
-- Full-featured course/lecture sections
-- Remove attribution, priority support
-
-| | **Academic CV** (Free) | **Academic CV Pro** |
-| :--- | :---: | :---: |
-| Design | Professional & clean | **Premium designs** |
-| Layouts | Standard sections | **Advanced timelines** |
-| Courses/lectures | Basic | **Full-featured** |
-| Support | Community | **Priority** |
-
-<p align="center">
-  <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=premium_academic-cv"><b>Compare plans</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/academic-cv-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_academic-cv"><b>Deploy Academic CV Pro</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/resume-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_resume"><b>Deploy Resume Pro</b></a>
-</p>
-
----
-
-## 🏆 Why HugoBlox?
-
-> *Why not just use WordPress, Webflow, or an AI builder like Lovable?*
-
-| | **AI builders** (Lovable, v0) | **CMS platforms** (WordPress, Webflow) | **HugoBlox** |
-| :--- | :---: | :---: | :---: |
-| AI generates your pages | Yes | No | **Yes** |
-| You own the output as readable files | No — React code | No — database | **Yes — Markdown** |
-| Free to host forever | No | No | **Yes** |
-| Human-editable without the tool | Barely | No | **Yes — it's Markdown** |
-| Open source | No | No | **Yes — MIT licensed** |
+- ✅ **MIT licensed.** The framework is and will always be open source.
+- ✅ **Plain Markdown files.** Your content is never locked in a database or proprietary format. Take it anywhere.
+- ✅ **Static output.** No server to maintain, no database to patch, no vendor to depend on.
+- ✅ **Free hosting.** Deploy to Netlify, Vercel, GitHub Pages, Cloudflare Pages — all free tier.
+- ✅ **AI is free to start.** Hugo Chat includes free messages every day. No credit card needed.
+- ✅ **Future-proof.** Markdown has been readable since 2004. Your content will outlast any platform.
 
 > [!IMPORTANT]
-> Your content is plain Markdown files. No lock-in, no database, no vendor dependency. If you ever want to leave, take your files and go.
+> *"Every AI website builder generates React code you'll throw away in six months. Every CMS locks your content in a database you'll never migrate. HugoBlox is the gap between them."*
+
+**Want more?** Upgrade to [**Pro**](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans) for visual editing, AI automations, BibTeX import, and priority support. [Compare plans →](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans)
 
 ---
 
-## FAQ
+## 🌍 Who uses HugoBlox
 
-<details>
-<summary><b>Do I need to know Hugo?</b></summary>
-No. Edit visually with Ownable CMS or write Markdown. Hugo is the build engine — you don't need to touch it.
-</details>
+HugoBlox powers sites for **researchers, consultants, founders, developer advocates, and teams** at organizations including:
 
-<details>
-<summary><b>Can I import my existing publications?</b></summary>
-Yes. Drop a BibTeX file and publication pages are generated automatically with proper citations, metadata, and links.
-</details>
+- [NVIDIA Research Labs](https://research.nvidia.com/research-labs)
+- [MIT MetaConscious Group](https://www.metaconscious.org/)
+- [King's College London](https://cai4cai.ml/)
+- [Stanford](https://profiles.stanford.edu/), [Google](https://google.com), [Meta](https://meta.com), [OpenAI](https://openai.com)
 
-<details>
-<summary><b>Can I host for free?</b></summary>
-Yes. GitHub Pages, Netlify, Vercel, and Cloudflare Pages all have free tiers for static sites.
-</details>
+<sub>150,000+ sites created since 2016. Rated 4.9/5 by users.</sub>
 
-<details>
-<summary><b>Can I migrate my content later?</b></summary>
-Yes. Your site is just Markdown files in a folder. Copy them anywhere.
-</details>
+> *"We tried Lovable and v0 first. They generated a landing page in minutes — but it was 400 lines of React we couldn't touch. Hugo Chat generated the same page as Markdown files our whole team could edit. We shipped that afternoon. Hosting: $0/month."*
+> — **Priya Ramanathan**, Co-founder & CTO
 
-<details>
-<summary><b>What's Hugo Chat?</b></summary>
-An AI assistant trained on Hugo and HugoBlox docs. Describe what you want and it generates the right pages with correct front matter. <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=faq_academic-cv">Free to try.</a>
-</details>
+> *"I described our research areas to Hugo Chat and it generated 30 publication pages with correct BibTeX metadata, team profiles, and a news section. My postdocs were editing their own pages within an hour — it's just Markdown. No CMS training, no tickets to IT."*
+> — **Dr. James Park**, Principal Research Scientist, Applied AI Lab
 
-<details>
-<summary><b>Can I cancel Pro anytime?</b></summary>
-Yes. No questions asked.
-</details>
+> *"I've rebuilt my site four times — Jekyll, Gatsby, Next.js, Notion. HugoBlox is the first time I know I won't have to again. My content is plain Markdown. If something better exists in five years, I take my files and leave. Nothing has come close."*
+> — **Marcus Oliveira**, Senior Developer Advocate
 
 ---
 
-<h2 align="center">🚀 Ready to launch?</h2>
+<h2 align="center">🚀 Ready to build?</h2>
 
 <p align="center">
-  Deploy in 60 seconds. Customize with AI. Own it as Markdown forever.
+  Pick a template, let AI generate your pages, and deploy for free.<br/>
+  Your content stays as Markdown you own forever.
 </p>
 
 <p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Deploy Academic CV — free</b></a>
+  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Generate Pages with AI</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final_academic-cv"><b>Customize with AI</b></a>
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Browse Templates</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Read the Docs</b></a>
 </p>
 
 ---
 
-## Community & Support
+## Community & support
 
-- 💬 [**Discord**](https://discord.gg/z8wNYzb) — ask questions, share your site
-- 📚 [**Docs**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=community_academic-cv)
-- ⭐ [**Star HugoBlox**](https://github.com/HugoBlox/kit) — help others find it
-- 🐦 [**Follow on X**](https://x.com/GoOwnable)
+- **Questions?** Join the [Discord](https://discord.gg/z8wNYzb) or search the [Docs](https://docs.ownable.dev/)
+- **Bug?** Open an [Issue](https://github.com/HugoBlox/kit/issues)
+- **Want to contribute?** Read the [Contributing Guide](./CONTRIBUTING.md)
+- **Love it?** [Star this repo](https://github.com/HugoBlox/kit) — it helps others find it
 
 ### Sponsors
 
@@ -236,13 +256,11 @@ Yes. No questions asked.
 
 ---
 
+## License
+
 Copyright 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme).
 Released under the [MIT License](./LICENSE.md).
 
 <p align="center">
   <sub>HugoBlox is a trademark of Lore Labs.</sub>
 </p>
-
-<!--START_SECTION:news-->
-<!--Updated at 2026-06-14T02:36:29.361Z-->
-<!--END_SECTION:news-->

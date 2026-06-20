@@ -1,0 +1,189 @@
+# Home page configuration using data-driven approach (data/pages/home.yaml)
+title: Home
+type: landing
+date: 2023-11-01
+
+sections:
+  - block: hero
+    content:
+      title: "**Build Anything** with HugoBlox"
+      text: |
+        Create stunning websites with Hugo-powered components.
+        Fast, flexible, and future-proof.
+      announcement:
+        text: "🎉 Introducing New Components"
+        link:
+          text: "Learn more"
+          url: "/linked"
+      primary_action:
+        text: "Get Started"
+        url: "#features"
+        icon: "hero/arrow-right"
+      secondary_action:
+        text: "View Documentation"
+        url: "/linked"
+    design:
+      css_class: "hero-gradient"
+      background:
+        gradient:
+          start: "primary-600"
+          end: "primary-400"
+          direction: "135"
+
+  - block: features
+    id: features
+    content:
+      title: "Why Choose Hugo Blox?"
+      items:
+        - name: "Lightning Fast"
+          description: "Static site generation with Preact hydration"
+          icon: "bolt"
+        - name: "Type Safe"
+          description: "Full TypeScript support for all components"
+          icon: "shield-check"
+        - name: "SEO Optimized"
+          description: "Server-side rendering with progressive enhancement"
+          icon: "magnifying-glass"
+    design:
+      columns: "3"
+
+  - block: map
+    content:
+      title: "Visit the Lab"
+      subtitle: "We're based on the Stanford campus — drop in any time during office hours."
+      location:
+        address: |
+          353 Jane Stanford Way
+          Stanford, CA 94305
+          United States
+        lat: 37.4275
+        lng: -122.1697
+      zoom: 15
+      cta:
+        directions:
+          text: "Get directions"
+        phone: "+1-650-555-0142"
+        email: "hello@example.com"
+    design:
+      layout: side-by-side
+      height: md
+      style: streets
+
+  - block: map
+    content:
+      title: "Where to find us"
+      markers:
+        - lat: 37.4275
+          lng: -122.1697
+          title: "Stanford AI Lab"
+          description: "Main campus building"
+        - lat: 37.4419
+          lng: -122.1430
+          title: "Palo Alto Office"
+          description: "Downtown Palo Alto"
+        - lat: 37.7749
+          lng: -122.4194
+          title: "San Francisco HQ"
+          description: "Mission District"
+    design:
+      layout: map-only
+      height: lg
+      style: light
+
+  - block: gallery
+    content:
+      title: "Lab tour"
+      subtitle: "A curated walkthrough — explicit items with captions and credits."
+      items:
+        - src: "media/albums/gallery/01-workspace.jpg"
+          caption: "The **main workspace** where most of our research happens"
+          credit: "Photo: [Picsum](https://picsum.photos)"
+          alt: "Open-plan workspace with laptops"
+        - src: "media/albums/gallery/05-castle.jpg"
+          title: "Annual retreat"
+          caption: "*Edinburgh, 2024* — three days of deep work and walks"
+          credit: "Photo: [Picsum](https://picsum.photos)"
+        - src: "media/albums/gallery/03-boat.jpg"
+          caption: "Field trip — coastal data collection on the `Aurora-II`"
+          credit: "Photo: [Picsum](https://picsum.photos)"
+          link: "/research/aurora-ii/"
+        - src: "media/albums/gallery/07-architecture.jpg"
+          caption: "The new wing opens [in spring](/news/new-wing/)"
+          credit: "Photo: [Picsum](https://picsum.photos)"
+    design:
+      layout: grid
+      columns: 4
+      gap: md
+      aspect_ratio: square
+      caption_position: below
+      hover_zoom: true
+      lightbox: true
+
+  - block: gallery
+    content:
+      title: "Recent expeditions"
+      subtitle: "Auto-loaded from `assets/media/albums/gallery/` — sidecar files supply captions for cabin and mountain."
+      album: "media/albums/gallery"
+      sort: asc
+    design:
+      layout: masonry
+      columns: 3
+      gap: md
+      caption_position: overlay
+      hover_zoom: true
+      lightbox: true
+
+  - block: gallery
+    content:
+      title: "Justified — Flickr-style"
+      subtitle: "Each row is the same height; widths follow the natural image aspect ratio."
+      album: "media/albums/gallery"
+      sort: asc
+    design:
+      layout: justified
+      row_height: 220
+      gap: sm
+      caption_position: none
+      lightbox: true
+
+  - block: gallery
+    content:
+      title: "Carousel — horizontal scroll-snap"
+      subtitle: "Swipe on touch devices, arrow buttons on desktop. Three across at large widths."
+      album: "media/albums/gallery"
+      sort: asc
+    design:
+      layout: carousel
+      columns: 3
+      gap: md
+      aspect_ratio: landscape
+      caption_position: below
+      hover_zoom: true
+      lightbox: true
+
+  - block: gallery
+    content:
+      title: "Slideshow — autoplay"
+      subtitle: "Hover anywhere over the slide to pause. Click to open the lightbox at full size."
+      album: "media/albums/gallery"
+      sort: asc
+    design:
+      layout: slideshow
+      aspect_ratio: wide
+      caption_position: overlay
+      autoplay: true
+      autoplay_interval: 4000
+      lightbox: true
+
+  - block: cta-card
+    content:
+      title: "Ready to get started?"
+      text: "Join 150,000+ users building with HugoBlox"
+      button:
+        text: "Start Building"
+        url: "https://hugoblox.com"
+    design:
+      background:
+        color:
+          light: "gray-50"
+          dark: "gray-900"

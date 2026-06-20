@@ -1,0 +1,27 @@
+# Hugo Build Artifacts
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+**/assets/jsconfig.json
+
+# Node.js
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Pagefind search index
+pagefind/
+static/pagefind/
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Logs
+*.log
+npm-debug.log*

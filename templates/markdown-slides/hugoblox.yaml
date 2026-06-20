@@ -1,0 +1,9 @@
+build:
+  hugo_version: '0.162.0'
+deploy:
+  # Deployment target: github-pages, netlify, vercel, cloudflare, or none
+  host: 'github-pages'
+template:
+  id: "markdown-slides"
+  name: "Markdown Slides"
+  description: "A minimal template for hosting and sharing Markdown-based slide decks"

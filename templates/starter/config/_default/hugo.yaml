@@ -1,0 +1,133 @@
+# Configuration of Hugo
+# Guide: https://docs.hugoblox.com/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/
+
+title: ''
+baseURL: 'https://example.com/'
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  # Blog posts
+  - target:
+      path: /blog/**
+      kind: page
+    pager: true
+    show_date: true
+    show_date_updated: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    share: true
+    show_breadcrumb: false
+
+  # Publications
+  - target:
+      path: /publications/**
+      kind: page
+    show_date: true
+    share: true
+    pager: true
+
+  # Events
+  - target:
+      path: /events/**
+      kind: page
+    show_date: true
+    share: true
+    pager: true
+
+  # Projects
+  - target:
+      path: /projects/**
+      kind: page
+    show_date: false
+    share: true
+
+  # Datasets
+  - target:
+      path: /datasets/**
+      kind: page
+    show_date: true
+    share: true
+
+  # Case Studies
+  - target:
+      path: /case-studies/**
+      kind: page
+    show_date: true
+    share: true
+
+  # Changelog
+  - target:
+      path: /changelog/**
+      kind: page
+    show_date: true
+    pager: false
+
+  # Courses
+  - target:
+      path: /courses/**
+      kind: page
+    show_breadcrumb: true
+    pager: true
+
+############################
+## OUTPUTS
+############################
+
+outputs:
+  home: [HTML, RSS, backlinks]
+  section: [HTML, RSS]
+
+############################
+## ADVANCED
+############################
+
+build:
+  writeStats: true
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+disableAliases: true
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+  hint: picture
+timeout: 600000
+taxonomies:
+  author: authors
+  tag: tags
+  category: categories
+markup:
+  _merge: deep
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+security:
+  _merge: deep
+sitemap:
+  _merge: deep
