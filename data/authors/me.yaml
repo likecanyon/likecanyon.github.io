@@ -2,9 +2,9 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Ziqi Gao
+  given: Ziqi
+  family: Gao
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
@@ -13,7 +13,7 @@ postnominals:
   - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Ph.D. Student
 bio: |
   Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
   has been published in top conferences like NeurIPS and ICML, with over
@@ -26,24 +26,24 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:gaoziqi21@mails.ucas.ac.cn
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+  # - icon: brands/x
+  #   url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/likecanyon
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/ziqi-gao-bb008128b/?locale=en
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?hl=zh-CN&tzom=-60&user=rQvqyeQAAAAJ&view_op=list_works&gmla=AL3_zigbxBDthsMZPJq7zoiEOvGuOGBmm5vTFLLMWJws_U2skm9HatCxPEGEKeJz8eHi-tPLpe_hGQB-9IciL8qCcYAhgpzg4jj-HX0NPLE
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/my-orcid?orcid=0000-0002-2575-2327
 
 interests:
-  - Large Language Models
-  - Computer Vision
+  - Robotics
+  - Robot Learning
   - Reinforcement Learning
-  - AI Ethics
+  - Dexterous Manipulation
 
 education:
   - degree: PhD Computer Science
