@@ -38,11 +38,8 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        My research sits at the crossroads of  robotics, learning, and control, with the goal of endowing robots with adaptability, agility, generalizability, and safety. 
+        I leverage both learning-based and model-based approaches to enhance a robot’s perception and physical interaction capabilities. I am particularly passionate about multi-modal perception, dexterous manipulation, dual-arm manipulation and dynamic task learning in hand–arm configurations. Looking ahead, I aim to explore loco-manipulation on integrated platforms—such as hand–arm–dog systems, hand–arm–mobile platforms, and humanoid robots—to further advance versatile, real-world robotic applications. Please reach out to collaborate.
     design:
       columns: '1'
   - block: collection
