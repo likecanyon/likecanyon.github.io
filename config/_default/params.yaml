@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Ziqi Gao"
+    name: "Ziqi Gao's Homepage"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -37,9 +37,9 @@ hugoblox:
     pack: "minimal"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "sky" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "sky"
+      neutral: "slate" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -53,14 +53,13 @@ hugoblox:
       footer:
         background: ""
         foreground: ""
-
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+    pack: "modern" #  modern | academic | minimal | classic | google | system
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -81,16 +80,16 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
+    style: navbar # navbar | navbar-simple | navbar-minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
     theme_picker: true
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false

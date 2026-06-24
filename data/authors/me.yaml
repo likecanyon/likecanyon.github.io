@@ -5,7 +5,7 @@ name:
   display: Ziqi Gao
   given: Ziqi
   family: Gao
-  alternate: '高子奇'  # Example: 王伟
+  alternate: 高子奇  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   # pronouns: he/him
 # postnominals:
@@ -24,7 +24,7 @@ affiliations:
     url: https://english.ucas.ac.cn/
 
 links:
-  - icon: at-symbol
+  - icon: hero/envelope #at-symbol
     url: mailto:gaoziqi21@mails.ucas.ac.cn
     label: E-mail Me
   # - icon: brands/x
@@ -46,25 +46,25 @@ interests:
   - World Model for Policy Learning
   - Dynamics Model
 
-education:
-  - degree: Ph.D. Pattern Recognition and Intelligent Systems
-    institution: University of Chinese Academy of Sciences
-    start: 2021-09-01
-    end: now
-    # summary: |
-    #   Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    # button:
-    #   text: Download dissertation
-    #   url: /resume.pdf
-    #   icon: hero/arrow-down-tray
-  # - degree: MS Computer Science
-  #   institution: Carnegie Mellon University
-  #   start: 2013-09-01
-  #   end: 2015-05-31
-  - degree: B.E. Mechanical Engineering
-    institution: Zhengzhou University
-    start: 2017-09-01
-    end: 2021-07-01
+# education:
+#   - degree: Ph.D. Pattern Recognition and Intelligent Systems
+#     institution: University of Chinese Academy of Sciences
+#     start: 2021-09-01
+#     end: now
+#     # summary: |
+#     #   Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+#     # button:
+#     #   text: Download dissertation
+#     #   url: /resume.pdf
+#     #   icon: hero/arrow-down-tray
+#   # - degree: MS Computer Science
+#   #   institution: Carnegie Mellon University
+#   #   start: 2013-09-01
+#   #   end: 2015-05-31
+#   - degree: B.E. Mechanical Engineering
+#     institution: Zhengzhou University
+#     start: 2017-09-01
+#     end: 2021-07-01
 
 experience:
   - role: Ph.D. Student and Research Intern
