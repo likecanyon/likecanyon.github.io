@@ -1,0 +1,69 @@
+# education:
+#   - degree: Ph.D. Pattern Recognition and Intelligent Systems
+#     institution: University of Chinese Academy of Sciences
+#     start: 2021-09-01
+#     end: now
+    # summary: |
+    #   Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    # button:
+    #   text: Download dissertation
+    #   url: /resume.pdf
+    #   icon: hero/arrow-down-tray
+  # - degree: MS Computer Science
+  #   institution: Carnegie Mellon University
+  #   start: 2013-09-01
+  #   end: 2015-05-31
+  # - degree: B.E. Mechanical Engineering
+  #   institution: Zhengzhou University
+  #   start: 2017-09-01
+  #   end: 2021-07-01
+
+experience:
+  - role: Ph.D. Student and Research Intern
+    org: State Key Laboratory of Robotics and Intelligent Systems, SIA, CAS
+    start: 2022-02-18
+    summary: |
+      Working on dexterous manipulation, publishing papers, applying patents and research proposals of fundings,.
+    button:
+      text: View portfolio
+      url: /
+      icon: hero/arrow-down-tray
+  - role: Research Intern
+    org: Fraunhofer
+    start: 2024-09-01
+    end: 2025-08-31
+    summary: |
+      Worked on RL-based dexterous manipulation tasks.
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: Reinforcement Learning
+        level: 5
+      - label: Robot Control
+        level: 5
+  - name: Research & Communication
+    items:
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 4
+      - label: Grant Proposals
+        level: 4
+
+languages:
+  - name: Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Fluent
+
+awards:
+  - title: Best Paper Award
+    awarder: NeurIPS
+    date: "2022-12-01"
+    summary: Awarded for groundbreaking work on efficient training of large models.
+    icon: hero/trophy

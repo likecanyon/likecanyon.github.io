@@ -5,19 +5,18 @@ name:
   display: Ziqi Gao
   given: Ziqi
   family: Gao
-  alternate: ''  # Example: 王伟
+  alternate: '高子奇'  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  # pronouns: he/him
+# postnominals:
+#   - PhD
+#   - MIEEE
 status:
   icon: "👨🏻‍💻" # ☕️ 📚 📘 👌🏻 🙋🏻‍♂️ ⌨️
 role: Ph.D. Student
 bio: |
       I am a third-year Ph.D. student in a consecutive Master’s-to-Doctoral program at the <a href="https://www.ucas.ac.cn/">University of Chinese Academy of Sciences</a>, enrolled in September 2021.  Since September 2025, I have been conducting research at  <a href="https://rocos-sia.cn/">ROCOS</a>, part of the <a href="https://rlab.sia.cas.cn/">State Key Laboratory of Robotics and Intelligent Systems, Shenyang Institute of Automation</a>, 
-      under the supervision of <a href="https://people.ucas.edu.cn/~zhaoyiwen">Prof. Yiwen Zhao</a>, where I had also worked previously from February 2022 to August 2024.      From September 2024 to August 2025, I was a visiting researcher at the Cognitive Robotics Group of the Department of  Robotic Systems at <a href="https://www.iff.fraunhofer.de/en.html">Fraunhofer IFF</a>. <!-- ,advised by <a href="https://www.linkedin.com/in/magnus-hanses/?originalSubdomain=en"> Magnus Hanses</a>. -->                     
-      In July 2021, I obtained a Bachelor of Engineering in Mechanical Engineering from <a href="https://www.zzu.edu.cn/index.htm">Zhengzhou University</a>.
+      under the supervision of <a href="https://people.ucas.edu.cn/~zhaoyiwen">Prof. Yiwen Zhao</a>, where I had also worked previously from February 2022 to August 2024.      From September 2024 to August 2025, I was a visiting researcher at the Cognitive Robotics Group of the Department of  Robotic Systems at <a href="https://www.iff.fraunhofer.de/en.html">Fraunhofer IFF</a>. <!-- ,advised by <a href="https://www.linkedin.com/in/magnus-hanses/?originalSubdomain=en"> Magnus Hanses</a>. -->In July 2021, I obtained a Bachelor of Engineering in Mechanical Engineering from <a href="https://www.zzu.edu.cn/index.htm">Zhengzhou University</a>.
 
 
 affiliations:
@@ -44,53 +43,55 @@ interests:
   - Robot Learning
   - Reinforcement Learning
   - Dexterous Manipulation
+  - World Model for Policy Learning
+  - Dynamics Model
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: Ph.D. Pattern Recognition and Intelligent Systems
+    institution: University of Chinese Academy of Sciences
+    start: 2021-09-01
+    end: now
+    # summary: |
+    #   Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    # button:
+    #   text: Download dissertation
+    #   url: /resume.pdf
+    #   icon: hero/arrow-down-tray
+  # - degree: MS Computer Science
+  #   institution: Carnegie Mellon University
+  #   start: 2013-09-01
+  #   end: 2015-05-31
+  - degree: B.E. Mechanical Engineering
+    institution: Zhengzhou University
+    start: 2017-09-01
+    end: 2021-07-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Ph.D. Student and Research Intern
+    org: State Key Laboratory of Robotics and Intelligent Systems, SIA, CAS
+    start: 2022-02-18
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Working on dexterous manipulation, publishing papers, applying patents and research proposals of fundings,.
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Research Intern
+    org: Fraunhofer
+    start: 2024-09-01
+    end: 2025-08-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Worked on RL-based dexterous manipulation tasks.
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
+      - label: Reinforcement Learning
         level: 5
-      - label: Cloud Computing
-        level: 4
+      - label: Robot Control
+        level: 5
   - name: Research & Communication
     items:
       - label: Academic Writing
@@ -101,10 +102,10 @@ skills:
         level: 4
 
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
 

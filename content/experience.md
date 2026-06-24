@@ -12,22 +12,22 @@ design:
 sections:
   - block: resume-experience
     content:
-      username: me
+      username: me_experience
     design:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: false
-  - block: resume-skills
-    content:
-      title: Skills & Hobbies
-      username: me
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
+      is_education_first: True
+  # - block: resume-skills
+  #   content:
+  #     title: Skills & Hobbies
+  #     username: me
+  # - block: resume-awards
+  #   content:
+  #     title: Awards
+  #     username: me
+  # - block: resume-languages
+  #   content:
+  #     title: Languages
+  #     username: me
 ---

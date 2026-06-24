@@ -1,15 +1,17 @@
 ---
-title: "An example journal article"
+title: "TCP"
 authors:
 - me
-- Robert Ford
+- Yingli Li
+- Yang Luo
+- Yunxiang Jiang
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2026-09-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2026-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -31,7 +33,7 @@ license: CC-BY-4.0
 awards:
   - name: "Test of Time Award"
     level: winner
-    date: "2025"
+    date: "2026"
     note: "Awarded for sustained impact 10 years after publication."
   - name: "Editor's Choice"
     level: featured
