@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://likecanyon.github.io/'
+baseURL: 'https://gaozq.tech' #https://likecanyon.github.io/
 
 ############################
 ## LANGUAGE
